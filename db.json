@@ -1,0 +1,295 @@
+{
+	"user-profile":{
+    "_id" : "5b2f6ac42bf322307c40f9a6",
+	"name":"RightMash",
+    "email" : "somoneone@something.com",
+    "login_provider" : "Google",
+    "shopping_provider" : "TESCO",
+    "nutrition_tracking" : {
+        "calories" : true,
+        "sugar" : false,
+        "fat" : true,
+        "protein" : true,
+        "fibre" : true,
+        "carbohydrates" : false,
+        "sodium" : true,
+        "saturated_fat" : true
+    },
+    "user_region" : {
+        "country_code" : "GB",
+        "country" : "UK",
+        "currency" : "£",
+        "currency_code" : "GBP",
+        "time_zone" : "GMT",
+        "weight_units" : "gm",
+        "liquid_units" : "lt"
+    }
+},
+	"user-logout":{
+		"status": "logged out",
+		"status_code": "user_logout"
+	},
+	"sensors":[
+		{
+			"sensor_id" : "7d2621fa-1e93-4c75-a35f-7840dcf24dad",
+			"type" : "RightMash Tile 1",
+			"spec" : {
+				"firmware_version" : "1.0",
+				"firmware_updated_on" : "2018-06-24T09:56:20.663Z"
+			},
+			"connection_details" : {
+				"connection_type" : "WiFi",
+				"ssid" : "wifi-ssid",
+				"password" : "wifi-password",
+				"security_type" : "WPA"
+			},
+			"starting_value" : {
+				"value" : 500.0,
+				"units" : "gm"
+			},
+			"current_value" : {
+				"value" : 250.3,
+				"units" : "gm"
+			},
+			"reading" : {
+				"battery_life" : 0.75,
+				"signal_strength" : 0.5
+			},
+			"current_ingredient_name" : "Tomatoes"
+		},
+		{
+			"sensor_id" : "7d2621fa-1e93-4c75-a35f-7840dcf24dad",
+			"type" : "RightMash Tile",
+			"spec" : {
+				"firmware_version" : "1.0",
+				"firmware_updated_on" : "2018-06-24T09:56:20.663Z"
+			},
+			"connection_details" : {
+				"connection_type" : "WiFi",
+				"ssid" : "wifi-ssid",
+				"password" : "wifi-password",
+				"security_type" : "WPA"
+			},
+			"starting_value" : {
+				"value" : 500.0,
+				"units" : "gm"
+			},
+			"current_value" : {
+				"value" : 250.3,
+				"units" : "gm"
+			},
+			"reading" : {
+				"battery_life" : 0.75,
+				"signal_strength" : 0.5
+			},
+			"current_ingredient_name" : "Potatoes"
+		}
+	],
+	"ingredients":[
+		{
+			"barcode" : "771609704",
+			"name" : "Potatoes",
+			"description" : "Potatoes description",
+			"value":50,
+			"units":"gm",
+			"order_value":500,
+			"order_unit":"gm",
+			"order_indecation_value":50,
+			"order_indecation_unit":"gm",
+			"category" : {
+				"code" : "veg",
+				"name" : "veg name"
+			},
+			"nutrition" : [ 
+				{
+					"name" : "Protein",
+					"value" : 20.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}, 
+				{
+					"name" : "Fibre",
+					"value" : 50.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}, 
+				{
+					"name" : "Carbohydrates",
+					"value" : 20.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}
+			]
+		},
+		{
+			"barcode" : "771609704",
+			"name" : "Tomatoes",
+			"description" : "Tomatoes description",
+			"value":100,
+			"units":"gm",
+			"order_value":500,
+			"order_unit":"gm",
+			"order_indecation_value":50,
+			"order_indecation_unit":"gm",
+			"category" : {
+				"code" : "veg",
+				"name" : "veg name"
+			},
+			"nutrition" : [ 
+				{
+					"name" : "Protein",
+					"value" : 20.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}, 
+				{
+					"name" : "Fibre",
+					"value" : 50.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}, 
+				{
+					"name" : "Carbohydrates",
+					"value" : 20.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}
+			]
+		},
+		{
+			"barcode" : "771609704",
+			"name" : "Cheeze",
+			"description" : "Cheeze description",
+			"value":450,
+			"units":"gm",
+			"order_value":500,
+			"order_unit":"gm",
+			"order_indecation_value":50,
+			"order_indecation_unit":"gm",
+			"category" : {
+				"code" : "veg",
+				"name" : "veg name"
+			},
+			"nutrition" : [ 
+				{
+					"name" : "Protein",
+					"value" : 20.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}, 
+				{
+					"name" : "Fibre",
+					"value" : 50.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}, 
+				{
+					"name" : "Carbohydrates",
+					"value" : 20.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}
+			]
+		},
+		{
+			"barcode" : "771609704",
+			"name" : "Carrot",
+			"description" : "Carrot description",
+			"value":150,
+			"units":"gm",
+			"order_value":500,
+			"order_unit":"gm",
+			"order_indecation_value":50,
+			"order_indecation_unit":"gm",
+			"category" : {
+				"code" : "veg",
+				"name" : "veg name"
+			},
+			"nutrition" : [ 
+				{
+					"name" : "Protein",
+					"value" : 20.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}, 
+				{
+					"name" : "Fibre",
+					"value" : 50.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}, 
+				{
+					"name" : "Carbohydrates",
+					"value" : 20.0,
+					"units" : "gm",
+					"category" : {
+						"code" : "general",
+						"name" : "general"
+					}
+				}
+			]
+		}
+	],	
+    "nutrition" : [ 
+        {
+            "name" : "Protein",
+            "value" : 20.0,
+            "units" : "gm",
+            "category" : {
+                "code" : "general",
+                "name" : "general"
+            }
+        }, 
+        {
+            "name" : "Fibre",
+            "value" : 50.0,
+            "units" : "gm",
+            "category" : {
+                "code" : "general",
+                "name" : "general"
+            }
+        }, 
+        {
+            "name" : "Carbohydrates",
+            "value" : 20.0,
+            "units" : "gm",
+            "category" : {
+                "code" : "general",
+                "name" : "general"
+            }
+        }
+    ]	
+}
